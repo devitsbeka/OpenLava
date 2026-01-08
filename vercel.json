@@ -1,7 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "installCommand": "corepack enable pnpm && corepack install",
-  "buildCommand": "pnpm run build:web",
+  "installCommand": "cd Packages/LavaWeb && npm install && npm run build && cd ../../Examples/LavaWebExample && npm install",
+  "buildCommand": "cd Examples/LavaWebExample && npm run build",
   "outputDirectory": "Examples/LavaWebExample/dist",
   "framework": null
 }

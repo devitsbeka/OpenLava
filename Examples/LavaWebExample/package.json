@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lava-web": "link:../../Packages/LavaWeb",
+    "lava-web": "file:../../Packages/LavaWeb",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

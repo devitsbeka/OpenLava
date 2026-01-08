@@ -1,0 +1,8 @@
+{
+  "name": "openlava",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build:web": "cd Packages/LavaWeb && pnpm install && pnpm run build && cd ../../Examples/LavaWebExample && pnpm install && pnpm run build"
+  }
+}

@@ -189,12 +189,15 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 180px;
-  height: 162px;
   margin-bottom: 1.5rem;
   border-radius: 12px;
   background: rgba(0, 0, 0, 0.3);
   overflow: hidden;
+}
+
+.animation-container canvas {
+  max-width: 100%;
+  height: auto;
 }
 
 .animation-container canvas {

@@ -1,2 +1,9 @@
 .vscode
 .DS_Store
+
+# Intermediate processing files
+Examples/trophy_frames/
+Examples/trophy_frames_no_bg/
+Examples/trophy_frames_avif/
+Examples/trophy_frames_resized/
+Examples/remove_bg.py

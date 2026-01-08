@@ -5,21 +5,36 @@ const animations = [
     path: "/animations/m13HomepageExperiencesTabInitialAnimationLavaAssets",
     name: "Experiences Tab",
     description: "Initial animation state",
+    width: 180,
+    height: 162,
   },
   {
     path: "/animations/m13HomepageExperiencesTabInitialAnimationSelectedLavaAssets",
     name: "Experiences Selected",
     description: "Selected state animation",
+    width: 180,
+    height: 162,
   },
   {
     path: "/animations/m13HomepageExperiencesTabLavaAssets",
     name: "Experiences Loop",
     description: "Continuous loop animation",
+    width: 180,
+    height: 162,
   },
   {
     path: "/animations/m13HomepageServicesTabInitialAnimationLavaAssets",
     name: "Services Tab",
     description: "Services initial animation",
+    width: 180,
+    height: 162,
+  },
+  {
+    path: "/animations/TrophyLavaAssets",
+    name: "Trophy Animation",
+    description: "Victory celebration loop",
+    width: 360,
+    height: 360,
   },
 ];
 
@@ -70,8 +85,8 @@ function App() {
               <div className="animation-container">
                 <LavaAnimation
                   assetPath={anim.path}
-                  width={180}
-                  height={162}
+                  width={anim.width}
+                  height={anim.height}
                 />
               </div>
               <div className="card-content">

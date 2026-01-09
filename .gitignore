@@ -10,8 +10,13 @@ Examples/upgrade_frames/
 Examples/upgrade_frames_no_bg/
 Examples/upgrade_frames_avif/
 Examples/upgrade_frames_resized/
+Examples/tv_frames/
+Examples/tv_frames_no_bg/
+Examples/tv_frames_avif/
+Examples/tv_frames_resized/
 Examples/remove_bg.py
 Examples/lightx_remove_bg.py
 Examples/backgroundremover_process.py
 Examples/won.mp4
 Examples/upgrade.mp4
+Examples/tv.mp4

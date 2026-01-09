@@ -46,6 +46,14 @@ const animations = [
     height: 200,
     isConfigurable: true,
   },
+  {
+    path: "/animations/TVLavaAssets",
+    name: "TV Animation",
+    description: "TV celebration loop",
+    width: 200,
+    height: 200,
+    isConfigurable: true,
+  },
 ];
 
 function App() {

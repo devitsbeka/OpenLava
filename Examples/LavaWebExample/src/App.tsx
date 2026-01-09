@@ -33,8 +33,8 @@ const animations = [
     path: "/animations/TrophyLavaAssets",
     name: "Trophy Animation",
     description: "Victory celebration loop",
-    width: 120,
-    height: 120,
+    width: 200,
+    height: 200,
   },
 ];
 

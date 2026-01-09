@@ -97,6 +97,7 @@ function App() {
                   <AnimationConfigPanel
                     assetPath={anim.path}
                     defaultConfig={{ width: anim.width, height: anim.height }}
+                    title={`${anim.name} Controls`}
                   />
                 ) : (
                   <LavaAnimation

@@ -4,11 +4,13 @@ import LavaAnimationConfigurable, { LavaAnimationRef, LavaAnimationConfig } from
 interface AnimationConfigPanelProps {
   assetPath: string;
   defaultConfig?: LavaAnimationConfig;
+  title?: string;
 }
 
 const AnimationConfigPanel: React.FC<AnimationConfigPanelProps> = ({
   assetPath,
   defaultConfig = {},
+  title = "Animation Controls",
 }) => {
   const animationRef = useRef<LavaAnimationRef>(null);
   const [manifest, setManifest] = useState<any>(null);
@@ -64,7 +66,7 @@ const AnimationConfigPanel: React.FC<AnimationConfigPanelProps> = ({
   return (
     <div className="config-panel">
       <div className="config-header">
-        <h3>Trophy Animation Controls</h3>
+        <h3>{title}</h3>
         <div className="config-status">
           Frame: {currentFrame + 1} / {totalFrames} | FPS: {fps}
         </div>

@@ -6,4 +6,12 @@ Examples/trophy_frames/
 Examples/trophy_frames_no_bg/
 Examples/trophy_frames_avif/
 Examples/trophy_frames_resized/
+Examples/upgrade_frames/
+Examples/upgrade_frames_no_bg/
+Examples/upgrade_frames_avif/
+Examples/upgrade_frames_resized/
 Examples/remove_bg.py
+Examples/lightx_remove_bg.py
+Examples/backgroundremover_process.py
+Examples/won.mp4
+Examples/upgrade.mp4

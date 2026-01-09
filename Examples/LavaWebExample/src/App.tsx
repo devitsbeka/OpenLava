@@ -38,6 +38,14 @@ const animations = [
     height: 200,
     isConfigurable: true,
   },
+  {
+    path: "/animations/UpgradeLavaAssets",
+    name: "Upgrade Animation",
+    description: "Upgrade celebration loop",
+    width: 200,
+    height: 200,
+    isConfigurable: true,
+  },
 ];
 
 function App() {

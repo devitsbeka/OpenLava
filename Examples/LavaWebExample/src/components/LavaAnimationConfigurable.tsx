@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useImperativeHandle, forwardRef } from "react";
+import { useEffect, useRef, useImperativeHandle, forwardRef } from "react";
 import { LavaRenderer } from "lava-web";
 
 export interface LavaAnimationConfig {

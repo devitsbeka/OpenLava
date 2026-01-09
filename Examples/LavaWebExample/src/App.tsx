@@ -1,4 +1,5 @@
 import LavaAnimation from "./components/LavaAnimation";
+import AnimationConfigPanel from "./components/AnimationConfigPanel";
 
 const animations = [
   {
@@ -35,6 +36,7 @@ const animations = [
     description: "Victory celebration loop",
     width: 200,
     height: 200,
+    isConfigurable: true,
   },
 ];
 
@@ -83,11 +85,18 @@ function App() {
             >
               <div className="card-glow" />
               <div className="animation-container">
-                <LavaAnimation
-                  assetPath={anim.path}
-                  width={anim.width}
-                  height={anim.height}
-                />
+                {anim.isConfigurable ? (
+                  <AnimationConfigPanel
+                    assetPath={anim.path}
+                    defaultConfig={{ width: anim.width, height: anim.height }}
+                  />
+                ) : (
+                  <LavaAnimation
+                    assetPath={anim.path}
+                    width={anim.width}
+                    height={anim.height}
+                  />
+                )}
               </div>
               <div className="card-content">
                 <h3 className="card-title">{anim.name}</h3>
